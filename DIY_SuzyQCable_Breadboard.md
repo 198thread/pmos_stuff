@@ -1,8 +1,8 @@
-##### DIY SuzyQCable on a breadboard (No soldering)
+## DIY SuzyQCable on a breadboard (No soldering)
 
 _Do not follow instructions from here unless you wholly accept any and all loss, damage, harm and liability as solely your responsibility._
 
-#### Requirements
+### Requirements
 
 - Needle nose pliers (This is not a luxury item)
 - Breadboard (SYB-170 Mini Solderless)
@@ -17,7 +17,7 @@ _Do not follow instructions from here unless you wholly accept any and all loss,
 - 22k resistor (1/4W is fine)
 - 56k resistor (1/4W is fine)
 
-#### Part A. Connections
+### Part A. Connections
 
 Use cables connecting from USB A to breadboard
 
@@ -187,7 +187,7 @@ graph TB
     class R6b,R6c,R6d,R7b,R7c,R7d,R8c,R8d,R2b,R2d,R3b,R3c,R3d,R4a,R4b,R4d Fillfree;
 ```
 
-#### Part B. Testing
+### Part B. Testing
 
 1. On one host, run `sudo dmesg -W`
 

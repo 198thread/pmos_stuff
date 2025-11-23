@@ -1,4 +1,4 @@
-##### Building GSCtool (Late 2025)
+## Building GSCtool (Late 2025)
 
 1. Install deps
     `sudo apk add git build-base libusb libusb-dev linux-headers openssl-dev`
