@@ -13,6 +13,7 @@
     `sudo gsctool -a -o`
 
 #### Boot Loop
+
 4. Button sequence when stuck in bootloop of 
 
     Machine:_Your machine is applying important updates....._
