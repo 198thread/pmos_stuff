@@ -31,7 +31,7 @@ _Do not follow instructions from here unless you wholly accept any and all loss,
 
     ```mermaid
     graph TB
-        subgraph Breadboard (Orientation A)
+        subgraph Breadboard - Orientation A
             %% --- FROM TOP TO BOTTOM ---
 
             %% Row 1 (top): GND (Black)
@@ -113,7 +113,7 @@ _Do not follow instructions from here unless you wholly accept any and all loss,
 
      ```mermaid
     graph TB
-        subgraph Breadboard (Orientation B)
+        subgraph Breadboard - Orientation B
             %% --- FROM TOP TO BOTTOM ---
 
             %% Row 1 (top): GND (Black)
