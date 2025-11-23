@@ -1,5 +1,7 @@
 #### Boot Loop
 
+_Do not follow instructions from here unless you wholly understand and accept any and all loss, damage, harm and liability as solely your responsibility._
+
 This is the bootloop:
     _2s of_
     Device:_Your device is applying important updates, Please do not turn it off_
