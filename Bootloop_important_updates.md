@@ -20,7 +20,7 @@ This is the bootloop:
     Device: _Please insert USB_
     TAP (VOL_UP + VOL_DOWN) **once**
 
-    It should look like this:
+It should look like this:
 
     ```
     VOL_UP     ----__________________________________________________--------------------------__-----
@@ -30,10 +30,11 @@ This is the bootloop:
                 Your machine is applying...         Screen off             still off..    Please insert USB
     ```
 
-    ##### Reboot into PMOS (Boot from internal HD)
-    Device: _Dev Mode Boot Screen_
-    TAP (VOL_UP) x 3 _ to choose Boot Device_
-    TAP (POW) x 2 _boot from internal (or usb if you can)_
+Reboot into PMOS (Boot from internal HD)
+
+Device: _Dev Mode Boot Screen_
+TAP (VOL_UP) x 3 _ to choose Boot Device_
+TAP (POW) x 2 _boot from internal (or usb if you can)_
 
 2. Check gsctool opened kernel options
 
