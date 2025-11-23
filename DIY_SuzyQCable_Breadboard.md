@@ -103,7 +103,7 @@ graph TB
     class R4e R22End;
 
     class R6b,R6c,R6d,R7b,R7c,R7d,R8c,R8d,R2b,R2d,R3b,R3c,R3d,R4a,R4b,R4d Fillfree;
-    ```
+```
     
     If you've build the above, test the connection as per the [next section](#Part-B.-Testing). If that did not work:
 
