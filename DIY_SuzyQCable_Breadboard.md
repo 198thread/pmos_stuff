@@ -107,7 +107,7 @@ graph TB
     
 If you've build the above, test the connection as per the [next section](#Part-B.-Testing). If that did not work:
 
-# return here 
+###### return here 
 
 If the printing on the silkscreen is correct and not a reverse, you need to change four connections for white, green and 2 resistors, check `A5, B5, A8, B8` like so:
 
