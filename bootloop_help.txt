@@ -40,4 +40,4 @@
 5. Check gsctool opened kernel options
 
     `sudo gsctool -a - I`
-    should say 'CCD: Open
+    should say 'CCD: Open'
