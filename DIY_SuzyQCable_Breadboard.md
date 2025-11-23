@@ -111,7 +111,7 @@ graph TB
     
     If the printing on the silkscreen is correct and not a reverse, you need to change four connections for white, green and 2 resistors, check `A5, B5, A8, B8` like so:
 
-    ```mermaid
+```mermaid
 graph TB
     subgraph Breadboard - Orientation B
         %% --- FROM TOP TO BOTTOM ---
