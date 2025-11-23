@@ -1,0 +1,43 @@
+##### CCD State Change
+
+1. Add in tpm
+
+    `sudo modprobe tpm_tis_i2c_cr50`
+
+2. Shut down tpm associated services
+
+    `sudo rc-service trunksd stop && sudo rc-service tpm2-abrmd stop `
+
+3. Run the tool as root
+
+    `sudo gsctool -a -o`
+
+4. Button sequence when stuck in bootloop of 
+
+    Machine:_Your machine is applying important updates....._
+    HOLD (POW + VOL_UP + VOL_DOWN) for 15s
+    Machine: Screen off
+    TAP (POW) **once**
+    Machine: _Nothing happens until 1-2 seconds later.._
+    Machine: _Please insert USB_
+    TAP (VOL_UP + VOL_DOWN) **once**
+
+    It should look like this:
+
+    ```
+    VOL_UP     ----__________________________________________________--------------------------__-----
+    VOL_DOWN   ----__________________________________________________--------------------------__-----
+    POW        ----__________________________________________________------__-------------------------
+                |                                       |                           |
+                Your machine is applying...         Screen off                  Please insert USB
+    ```
+
+    ##### Reboot into PMOS (Boot from internal HD)
+    Machine: _Your OS is not verified_
+    TAP (VOL_UP) x 3
+    TAP (POW) x 2 
+
+5. Check gsctool opened kernel options
+
+    `sudo gsctool -a - I`
+    should say 'CCD: Open
