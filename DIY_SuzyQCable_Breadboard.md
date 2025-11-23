@@ -105,11 +105,11 @@ graph TB
     class R6b,R6c,R6d,R7b,R7c,R7d,R8c,R8d,R2b,R2d,R3b,R3c,R3d,R4a,R4b,R4d Fillfree;
 ```
     
-    If you've build the above, test the connection as per the [next section](#Part-B.-Testing). If that did not work:
+If you've build the above, test the connection as per the [next section](#Part-B.-Testing). If that did not work:
 
-    #return here 
-    
-    If the printing on the silkscreen is correct and not a reverse, you need to change four connections for white, green and 2 resistors, check `A5, B5, A8, B8` like so:
+#return here 
+
+If the printing on the silkscreen is correct and not a reverse, you need to change four connections for white, green and 2 resistors, check `A5, B5, A8, B8` like so:
 
 ```mermaid
 graph TB
