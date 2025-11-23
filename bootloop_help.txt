@@ -33,9 +33,9 @@
     ```
 
     ##### Reboot into PMOS (Boot from internal HD)
-    Machine: _Your OS is not verified_
-    TAP (VOL_UP) x 3
-    TAP (POW) x 2 
+    Machine: _Dev Mode Boot Screen_
+    TAP (VOL_UP) x 3 _Choose Boot Device_
+    TAP (POW) x 2 _Boot from Internal_
 
 5. Check gsctool opened kernel options
 
